@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  overflow: auto;
+}
+
+body {
+  font-family: Arial;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.8;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+#colorlib-main {
+  width: calc(100% - 300px);
+  float: right;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+@media screen and (max-width: 768px) {
+  #colorlib-main {
+    width: 100%;
+    padding: 0 1em;
+  }
+}
+
+/* .container-wrap {
+  max-width: 1170px;
+  margin: 0 auto;
+} */

@@ -1,0 +1,28 @@
+/* TODO: small margin or padding on top of slider */
+
+#slide1 {
+    background-image: url('/images/bg.jpg');
+    max-width: 824px;
+    height: 500px;
+    padding-left: 2em;
+    align-self: center;
+}
+
+#slide1 .desc h1 {
+    color: white;
+}
+
+#slide2 {
+    background-image: url('/images/bg.jpg');
+    max-width: 824px;
+    height: 500px;
+    padding-left: 2em;
+}
+
+#slide2 .desc h1 {
+    color: white;
+}
+
+#slider {
+    margin-top: 3em;
+}

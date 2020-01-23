@@ -1,0 +1,20 @@
+#colorlib-hero {
+    min-height: 500px;
+    background: #fff;
+    width: 100%;
+    float: left;
+    margin-bottom: 10em;
+    clear: both;
+}
+
+#colorlib-hero .flexslider {
+    border: none;
+    z-index: 1;
+    margin-bottom: 0;
+}
+
+#colorlib-hero .flexslider .slides {
+    position: relative;
+    overflow: visible;
+}
+
