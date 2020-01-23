@@ -1,6 +1,6 @@
 .colorlib-about {
-    padding-top: 4em;
-    padding-bottom: 9em;
+    padding-top: 2em;
+    padding-bottom: 0;
     clear: both;
     width: 100%;
     display: block;
@@ -8,8 +8,8 @@
 
 @media screen and (max-width: 768px) {
     .colorlib-about {
-        padding-top: 5em;
-        padding-bottom: 8em;
+        padding-top: 2em;
+        padding-bottom: 0;
     }
 }
 
@@ -60,12 +60,6 @@
 }
 
 .about-desc {
-    background-color: #F5F5F2;
-    padding: 0.5em 0 0.5em 1em;
-    border-radius: 0.5em;
-}
-
-#projects {
     background-color: #F5F5F2;
     padding: 0.5em 0 0.5em 1em;
     border-radius: 0.5em;
