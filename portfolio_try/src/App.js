@@ -3,10 +3,12 @@ import SideBar from './components/sidebar_2';
 import Introduction from './components/introduction';
 import Slide from './components/slider';
 import About from './components/about';
+import TimeLine from './components/timeline';
 import './App.css';
 import './style/sidebar.css';
 import './style/slider.css';
 import './style/about.css';
+import './style/timeline.css';
 
 class App extends React.Component {
   render() {
@@ -18,6 +20,7 @@ class App extends React.Component {
               <Slide />
               {/* <Introduction></Introduction> */}
               <About></About>
+              <TimeLine />
               {/*<Timeline></Timeline> */}
             </div>
         </div>

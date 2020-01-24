@@ -4,7 +4,6 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import './style/bootstrap.min.css';
-// import './style/flexslider.min.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
