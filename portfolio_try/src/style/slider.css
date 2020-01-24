@@ -5,22 +5,35 @@
     max-width: 824px;
     height: 500px;
     padding-left: 2em;
-    align-self: center;
+    position: relative;
 }
 
 #slide1 .desc h1 {
     color: white;
 }
 
+#slide1 .desc {
+    position: absolute;
+    bottom: 2em;
+    left: 2em;
+}
+
 #slide2 {
-    background-image: url('/images/bg.jpg');
+    background-image: url('/images/code.jpg');
     max-width: 824px;
     height: 500px;
     padding-left: 2em;
+    position: relative;
 }
 
 #slide2 .desc h1 {
     color: white;
+}
+
+#slide2 .desc{
+    position: absolute;
+    bottom: 2em;
+    left: 2em;
 }
 
 #slider {

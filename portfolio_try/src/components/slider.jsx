@@ -11,7 +11,6 @@ class Slide extends React.Component {
             slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 5000,
-            // vertical: true,
         };
         return (
             <Slider {...settings} id="slider">
@@ -22,7 +21,7 @@ class Slide extends React.Component {
                         <div id="slide1" className="col-12">
                             <div className="desc">
                                 <h1>Hi! <br />My name is Leo.</h1>
-                                <p><a className="btn btn-primary btn-learn" href="/" target="_blank" rel="noopener noreferrer">View CV<i className="/" /></a></p>
+                                <p><a className="btn btn-primary btn-learn" href="https://www.linkedin.com/in/leo-elmecker-plakolm-635895192/" target="_blank" rel="noopener noreferrer">View CV<i className="/" /></a></p>
                             </div>
                         </div>
                         <div className="col" />
@@ -35,7 +34,8 @@ class Slide extends React.Component {
                         <div id="slide2" className="col-12">
                             <div className="desc">
                             <h1>I often <br />do stuff.</h1>
-                            <p><a className="btn btn-primary btn-learn" href="/" target="_blank" rel="noopener noreferrer">View Stuff <i className="icon-book" /></a></p>                            </div>
+                            <p><a className="btn btn-primary btn-learn" href="https://github.com/leoelm" target="_blank" rel="noopener noreferrer">View Stuff <i className="icon-book" /></a></p>
+                            </div>
                         </div>
                         <div className="col" />
                     </div>
